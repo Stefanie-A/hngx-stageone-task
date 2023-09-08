@@ -21,7 +21,7 @@ def my_endpoint():
     utc_time = utc_time_value.strftime("%Y-%m-%dT%H:%M:%SZ")
     
 
-    github_file_url = "https://github.com/Stefanie-A/hngx-stageone-task/blob/main/task.py"
+    github_file_url = "https://github.com/Stefanie-A/hngx-stageone-task/blob/master/task.py"
     github_repo_url = "https://github.com/Stefanie-A/hngx-stageone-task"
     result = {
         "slack_name": slack_name,
