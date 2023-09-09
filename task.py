@@ -3,8 +3,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# Define an endpoint that takes two query parameters and returns JSON
-@app.route('/endpoint', methods=['GET'])
+@app.route('/api', methods=['GET'])
 def my_endpoint():
     # Get query parameters from the request
     slack_name = request.args.get('slack_name')
